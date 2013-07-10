@@ -1,0 +1,12 @@
+Source: ros-hydro-segbot-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: "Piyush Khandelwal <piyushk@gmail.com>, Jack O'Quin <jack.oquin@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-gazebo, ros-hydro-gazebo-plugins, ros-hydro-gazebo-ros, ros-hydro-image-transport, ros-hydro-message-generation, ros-hydro-roscpp
+Homepage: http://ros.org/wiki/bwi_gazebo_plugins
+Standards-Version: 3.9.2
+
+Package: ros-hydro-segbot-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cv-bridge, ros-hydro-gazebo, ros-hydro-gazebo-plugins, ros-hydro-gazebo-ros, ros-hydro-image-transport, ros-hydro-message-runtime, ros-hydro-roscpp
+Description: bwi_gazebo_plugins
