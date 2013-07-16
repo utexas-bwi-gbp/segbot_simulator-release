@@ -1,0 +1,19 @@
+ros-hydro-segbot-simulator (0.1.2-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Tue, 16 Jul 2013 05:00:00 -0000
+
+ros-hydro-segbot-simulator (0.1.1-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Mon, 15 Jul 2013 05:00:00 -0000
+
+ros-hydro-segbot-simulator (0.1.0-0quantal) quantal; urgency=high
+
+  * catkinization complete
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Wed, 10 Jul 2013 05:00:00 -0000
+
+
