@@ -1,0 +1,12 @@
+Source: ros-hydro-segbot-simulator
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/segbot_simulator
+Standards-Version: 3.9.2
+
+Package: ros-hydro-segbot-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-segbot-gazebo
+Description: segbot_simulator
