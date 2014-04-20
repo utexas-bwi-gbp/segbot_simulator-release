@@ -1,3 +1,25 @@
+## segbot_simulator (hydro) - 0.2.0-0
+
+The packages in the `segbot_simulator` repository were released into the `hydro` distro by running `/usr/bin/bloom-release segbot_simulator -r hydro -t hydro` on `Sun, 20 Apr 2014 15:45:46 -0000`
+
+These packages were released:
+- `segbot_gazebo`
+- `segbot_simulation_apps`
+- `segbot_simulator`
+
+Version of package(s) in repository `segbot_simulator`:
+- rosdistro version: `0.1.5-0`
+- old version: `0.1.5-0`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.4`
+- catkin_pkg version: `0.2.1`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## segbot_simulator - 0.1.5-0
 
 User `piyushk@robot-devil` released the packages in the `segbot_simulator` repository by running `/usr/bin/bloom-release --track hydro --ros-distro hydro segbot_simulator` on `Tue, 03 Sep 2013 16:28:34 -0000`
