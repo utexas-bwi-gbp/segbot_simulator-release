@@ -1,0 +1,12 @@
+Source: ros-hydro-segbot-gazebo
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-roslaunch
+Homepage: http://ros.org/wiki/bwi_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-hydro-segbot-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-fake-localization, ros-hydro-gazebo-plugins, ros-hydro-gazebo-ros, ros-hydro-map-server, ros-hydro-rviz, ros-hydro-segbot-bringup, ros-hydro-segbot-description, ros-hydro-segbot-navigation
+Description: bwi_gazebo
