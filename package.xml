@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>segbot_simulation_apps</name>
-  <version>0.2.1</version>
+  <version>0.3.0</version>
   <description>
     Applications designed specifically to be used in a simulation
     environment, such as opening and closing doors inside the building
@@ -22,21 +22,23 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>boost</build_depend>
+  <build_depend>bwi_msgs</build_depend>
   <build_depend>bwi_planning_common</build_depend>
   <build_depend>bwi_tools</build_depend>
   <build_depend>gazebo_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
-  <build_depend>message_generation</build_depend>
+  <build_depend>multi_level_map_msgs</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>tf</build_depend>
   
   <run_depend>boost</run_depend>
+  <run_depend>bwi_msgs</run_depend>
   <run_depend>bwi_planning_common</run_depend>
   <run_depend>bwi_tools</run_depend>
   <run_depend>gazebo_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
-  <run_depend>message_runtime</run_depend>
+  <run_depend>multi_level_map_msgs</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>tf</run_depend>
