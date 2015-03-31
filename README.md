@@ -1,3 +1,27 @@
+## segbot_simulator (indigo) - 0.3.1-0
+
+The packages in the `segbot_simulator` repository were released into the `indigo` distro by running `/usr/bin/bloom-release segbot_simulator --non-i --track indigo --ros-distro indigo` on `Tue, 31 Mar 2015 18:43:15 -0000`
+
+These packages were released:
+- `segbot_gazebo`
+- `segbot_simulation_apps`
+- `segbot_simulator`
+
+Version of package(s) in repository `segbot_simulator`:
+- upstream repository: https://github.com/utexas-bwi/segbot_simulator.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## segbot_simulator (hydro) - 0.3.1-0
 
 The packages in the `segbot_simulator` repository were released into the `hydro` distro by running `/usr/bin/bloom-release segbot_simulator --non-i --track hydro --ros-distro hydro` on `Tue, 31 Mar 2015 18:40:52 -0000`
