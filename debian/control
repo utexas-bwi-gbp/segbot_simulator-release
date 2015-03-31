@@ -1,0 +1,12 @@
+Source: ros-hydro-segbot-simulation-apps
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-hydro-bwi-msgs, ros-hydro-bwi-planning-common, ros-hydro-bwi-tools, ros-hydro-catkin, ros-hydro-gazebo-msgs, ros-hydro-geometry-msgs, ros-hydro-multi-level-map-msgs, ros-hydro-roscpp, ros-hydro-roslaunch, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: http://wiki.ros.org/segbot_simulation_apps
+Standards-Version: 3.9.2
+
+Package: ros-hydro-segbot-simulation-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-hydro-bwi-msgs, ros-hydro-bwi-planning-common, ros-hydro-bwi-tools, ros-hydro-gazebo-msgs, ros-hydro-geometry-msgs, ros-hydro-multi-level-map-msgs, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-tf
+Description: Applications designed specifically to be used in a simulation environment, such as opening and closing doors inside the building simulation.
