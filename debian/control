@@ -1,0 +1,12 @@
+Source: ros-indigo-segbot-simulation-apps
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-bwi-msgs, ros-indigo-bwi-planning-common, ros-indigo-bwi-tools, ros-indigo-catkin, ros-indigo-gazebo-msgs, ros-indigo-geometry-msgs, ros-indigo-multi-level-map-msgs, ros-indigo-roscpp, ros-indigo-roslaunch, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/segbot_simulation_apps
+Standards-Version: 3.9.2
+
+Package: ros-indigo-segbot-simulation-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-bwi-msgs, ros-indigo-bwi-planning-common, ros-indigo-bwi-tools, ros-indigo-gazebo-msgs, ros-indigo-geometry-msgs, ros-indigo-multi-level-map-msgs, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf
+Description: Applications designed specifically to be used in a simulation environment, such as opening and closing doors inside the building simulation.
