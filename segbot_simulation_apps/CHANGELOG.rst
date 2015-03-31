@@ -2,6 +2,9 @@
 Changelog for package segbot_simulation_apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2015-03-31)
+------------------
+
 0.3.0 (2015-03-24)
 ------------------
 * added missing dependency on multi_level_map_msgs.
